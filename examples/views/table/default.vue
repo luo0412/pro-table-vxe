@@ -468,6 +468,7 @@ export default {
       list: [],
       total: 0,
       options: {
+        border: true,
         // rowKey: 'value',
         loading: false,
         // showIndex: true,

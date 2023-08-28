@@ -145,7 +145,6 @@ const render = function(h) {
       {this.$slots.top}
       <div class='vxeTableParentEl'>
         <vxe-table
-          border
           ref='vxeTable'
           class='vxeTable'
           seq-config={seqConfig}
@@ -393,7 +392,7 @@ export default {
     localTableOptions() {
       const defaultTableOptions = {
         // rowId: 'id', // 唯一id
-        border: false,
+        border: true,
         resizable: true, // 是否允许拖动
         highlightHoverRow: true,
         highlightCurrentRow: true, // 是否要高亮当前行
